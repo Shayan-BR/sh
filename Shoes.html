@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>فروشگاه کفش</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f0f0f0;
+}
+header {
+background: linear-gradient(135deg, #ff7e5f, #feb47b);
+color: rgb(0, 0, 0);
+padding: 20px;
+text-align: center;
+}
+.banner {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 300px;
+background: url('shoe-banner.jpg') no-repeat center center/cover;
+color: #feb47b;
+font-size: 2em;
+}
+.products {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 20px;
+}
+.product {
+background: white;
+margin: 10px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+width: 200px;
+text-align: center;
+}
+.product img {
+width: 100%;
+border-radius: 10px;
+}
+.contact-form {
+background: white;
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form input, .contact-form textarea {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.contact-form button {
+width: 100%;
+padding: 10px;
+background: #ff7e5f;
+border: none;
+border-radius: 5px;
+color: white;
+font-size: 16px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+.contact-form button:hover {
+background: #feb47b;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>فروشگاه کفش</h1>
+</header>
+<div class="banner">
+<div>بهترین کفش‌ها برای شما</div>
+</div>
+<div class="products">
+<div class="product">
+<img src="https://dkstatics-public.digikala.com/digikala-products/e3624b5cd3a1065a0e505413b9253469d28046d3_1671736225.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90" alt="کفش 1">
+<h3>کفش اسپرت</h3>
+<p>قیمت: 200,000 تومان</p>
+</div>
+<div class="product">
+<img src="https://api.kukala.ir/product/images/GetImage/2023-03-09/3054808045720173729_1.jpg?w=360&q=80" alt="کفش 2">
+<h3>کفش  دخترانه</h3>
+<p>قیمت: 300,000 تومان</p>
+</div>
+<!-- محصولات بیشتر -->
+</div>
+<div class="contact-form">
+<h2>تماس با ما</h2>
+<input type="text" placeholder="نام">
+<input type="email" placeholder="ایمیل">
+<textarea placeholder="پیام"></textarea>
+<button>ارسال</button>
+</div>
+</body>
+</html>
